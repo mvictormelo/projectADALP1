@@ -113,6 +113,7 @@ public class ContatoDAO {
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
+                break;
             }
         }
     }
@@ -124,7 +125,7 @@ public class ContatoDAO {
         int id;
 
         while (true) {
-            System.out.print("Insira o ID do telefone (zero para não inserir): ");
+            System.out.print("Insira o ID do telefone (zero para encerrar): ");
             id = scanner.nextInt();
 
             if (id == 0) {

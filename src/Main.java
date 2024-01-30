@@ -13,16 +13,19 @@ public class Main {
             System.out.println("##### AGENDA #####");
             System.out.println("##################");
 
+            System.out.println("");
             System.out.println(">>>> Contatos <<<<");
             System.out.println("Id | Nome | Telefones");
             contatoDAO.exibirContatos();
 
+            System.out.println("");
             System.out.println(">>>> Menu <<<<");
             System.out.println("1 - Adicionar Contato");
             System.out.println("2 - Remover Contato");
             System.out.println("3 - Editar Contato");
             System.out.println("4 - Sair");
 
+            System.out.println("");
             System.out.println(">>>> Opção <<<<");
             escolha = scanner.nextInt();
 
